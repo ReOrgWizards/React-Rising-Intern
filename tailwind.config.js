@@ -27,7 +27,7 @@ export default {
 
       fontFamily: {
         lato: ["Lato"],
-        comfortaa: ["Comfortaa", "Sans-serif"],
+        comfortaa: ["Comfortaa"],
       },
 
       borderRadius: {

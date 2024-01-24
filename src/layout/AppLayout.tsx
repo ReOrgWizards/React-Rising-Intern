@@ -6,7 +6,7 @@ function AppLayout() {
   return (
     <div className="bg-blue-primary-color-0">
       <Navbar />
-      <main className="p-16 ">
+      <main className="">
         <Outlet />
       </main>
       <Footer />

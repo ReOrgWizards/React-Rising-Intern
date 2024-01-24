@@ -1,5 +1,7 @@
 import { ReactNode } from "react";
 import { tv } from "tailwind-variants";
+import { motion } from "framer-motion";
+import { AnimationType } from "../../shared/type";
 
 type Props = {
   icon?: ReactNode;
@@ -7,6 +9,9 @@ type Props = {
   btnType: "primary" | "secondary" | "tertiary" | "quartinary";
   className?: string;
   size?: "sm" | "md" | "xsm";
+  initial?: AnimationType;
+  animate?: AnimationType;
+  transition?: AnimationType;
 };
 
 const button = tv({
@@ -18,7 +23,7 @@ const button = tv({
         "border-blue-primary-color-400 border-blue-primary-color-400 text-blue-primary-color-400",
       tertiary: "bg-blue-primary-color-400 text-grey-primary-color-100",
       quartinary:
-        "bg-blue-primary-color-200/40 border-blue-primary-color-400 text-blue-primary-color-400",
+        "bg-grey-primary-color-100/60 border-blue-primary-color-400 text-blue-primary-color-400 ",
     },
     size: {
       xsm: "py-1 px-2 gap-2",
@@ -28,13 +33,25 @@ const button = tv({
   },
 });
 
-export const Button = ({ icon, label, btnType, className, size }: Props) => {
+export const Button = ({
+  icon,
+  label,
+  btnType,
+  className,
+  size,
+  initial,
+  animate,
+  transition,
+}: Props) => {
   return (
-    <button
+    <motion.button
+      initial={initial}
+      animate={animate}
+      transition={transition}
       className={`${button({ color: btnType, size: size, class: className })}`}
     >
       {icon ? <span>{icon}</span> : null}
       <span className={` text-xl font-bold`}>{label}</span>
-    </button>
+    </motion.button>
   );
 };
