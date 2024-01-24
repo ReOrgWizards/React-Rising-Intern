@@ -4,28 +4,22 @@ import { Button } from "../Button/Button";
 
 const Overview = () => {
   return (
-    <div className="flex h-full w-[36rem] flex-col justify-evenly">
-      <h1 className="text-4xl font-semibold uppercase text-blue-primary-color-400">
+    <div className="flex h-full w-[37rem] flex-col justify-start gap-10">
+      <h1 className="text-4xl font-bold uppercase text-blue-primary-color-400">
         Channakya Demo Project
       </h1>
-      <h2 className="relative mb-2 text-6xl uppercase leading-[80px] text-blue-primary-color-600">
+      <h2 className="w-[36rem] text-5xl uppercase leading-[60px] text-blue-primary-color-600">
         <span className="block">Channakya Software</span>
-        <p>
-          <span className="rounded-md py-2 pr-4">for a</span>
-          <span className="relative z-20 rounded-md bg-bluishGradient px-4 py-[6px] text-grey-primary-color-100">
-            Better
-          </span>
-        </p>
-        <span className="rounded-md bg-bluishGradient px-8 py-[6px] text-grey-primary-color-100">
-          Software
-        </span>
+        <span className="rounded-md py-2 pr-4">for a</span>
+        <span className="rounded-md px-4 ">Better Software</span>
       </h2>
-      <p className="text-xsm">
-        Establishing Clean Environments, One Septic Solution at a Time. Proudly
-        Serving Kathmandu, Lalitpur, and Bhaktapur Communities for Reliable
-        Waste Management
+      <p className="mt-[-1rem] text-xsm">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
+        itaque illo soluta dolor repellendus. Esse deleniti earum voluptate
+        iusto est. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Eum, quidem?
       </p>
-      <div className="flex items-center justify-between">
+      <div className=" flex items-center gap-4">
         <Button
           icon={
             <CallIcon
@@ -36,7 +30,6 @@ const Overview = () => {
           }
           label="Call us"
           btnType="primary"
-          labelType="secondary"
         />
         <Button
           icon={
@@ -48,7 +41,6 @@ const Overview = () => {
           }
           label="Mail us"
           btnType="secondary"
-          labelType="primary"
         />
       </div>
     </div>
