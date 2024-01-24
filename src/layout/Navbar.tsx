@@ -3,7 +3,7 @@ import { Button } from "../components/Button/Button";
 
 const Navbar = () => {
   return (
-    <header className=" w-full border-b-[1px] border-grey-primary-color-200 px-12 pb-[19px] pt-5">
+    <header className=" w-full border-b-[1px] border-grey-primary-color-200 px-12 pb-[15px] pt-5">
       <nav className="flex w-full items-center justify-between">
         <div>Logo</div>
         <ul className="inline-flex items-center justify-start gap-16 self-stretch">
@@ -35,8 +35,7 @@ const Navbar = () => {
             <Button
               label="Contact"
               btnType="tertiary"
-              labelType="secondary"
-              className="px-8 py-[0.3rem] text-sm"
+              className="px-6 pb-[0.6rem] pt-[0.4rem] text-sm"
             />
           </li>
         </ul>
