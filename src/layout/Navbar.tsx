@@ -3,10 +3,10 @@ import { Button } from "../components/Button/Button";
 
 const Navbar = () => {
   return (
-    <header className="w-full px-12 pb-[19px] pt-5">
+    <header className=" w-full border-b-[1px] border-grey-primary-color-200 px-12 pb-[19px] pt-5">
       <nav className="flex w-full items-center justify-between">
         <div>Logo</div>
-        <ul className="inline-flex items-center justify-start gap-20 self-stretch">
+        <ul className="inline-flex items-center justify-start gap-16 self-stretch">
           <li>
             <NavLink
               to="/"
@@ -32,7 +32,12 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li>
-            <Button label="Contact" btnType="tertiary" labelType="secondary" />
+            <Button
+              label="Contact"
+              btnType="tertiary"
+              labelType="secondary"
+              className="px-8 py-[0.3rem] text-sm"
+            />
           </li>
         </ul>
       </nav>
