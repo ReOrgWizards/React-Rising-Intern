@@ -11,7 +11,7 @@ const HeroImage = () => {
         className="absolute z-10 w-[595px] translate-y-[-20]"
       />
       <div className="h-[450px] w-[520px] translate-x-[40px] translate-y-[30px] rotate-[-10deg] rounded-md bg-blue-primary-color-200"></div>
-      <div className="absolute left-20 top-[40%] z-20 flex flex-col items-center justify-center gap-2">
+      <div className="absolute left-6 top-[28%] z-20 flex flex-col items-center justify-center gap-2">
         <Button
           icon={
             <CallIcon
@@ -22,7 +22,6 @@ const HeroImage = () => {
           }
           label="981234509"
           btnType="quartinary"
-          labelType="primary"
           size="xsm"
         />
 
@@ -36,7 +35,6 @@ const HeroImage = () => {
           }
           label="981234509"
           btnType="quartinary"
-          labelType="primary"
           size="xsm"
         />
 
@@ -50,7 +48,6 @@ const HeroImage = () => {
           }
           label="981234509"
           btnType="quartinary"
-          labelType="primary"
           size="xsm"
         />
       </div>
