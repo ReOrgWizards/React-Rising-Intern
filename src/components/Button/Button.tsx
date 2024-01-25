@@ -15,7 +15,7 @@ type Props = {
 };
 
 const button = tv({
-  base: "flex justify-center items-center gap-8 font-Lato font-thin rounded-btn px-[80px] py-5 border-2",
+  base: "flex justify-center items-center gap-8 rounded-btn px-[80px] py-5 border-2",
   variants: {
     color: {
       primary: "bg-blue-primary-color-400 text-grey-primary-color-100",

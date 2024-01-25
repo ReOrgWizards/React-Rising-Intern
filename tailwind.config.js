@@ -48,9 +48,9 @@ export default {
       },
 
       fontWeight: {
-        thin: 400,
-        normal: 500,
-        semibold: 700,
+        thin: "var(--font-thin)",
+        normal: "var(--font-normal)",
+        semibold: "var(--font-semibold)",
       },
 
       padding: {
@@ -61,9 +61,6 @@ export default {
         xl: "var(--padding-xl)",
         "2xl": "var(--padding-2xl)",
         "3xl": "var(--padding-3xl",
-      },
-      boxShadow: {
-        "normal-shadow": "0 5px 5px rgba(0,0,0,0.3)",
       },
     },
   },

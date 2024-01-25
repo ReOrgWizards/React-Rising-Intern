@@ -15,7 +15,6 @@ import { Button } from "../Button/Button";
 import Image1 from "./../../assets/images/image-1.png";
 
 const HeroImage = () => {
-  Math.max();
   return (
     <motion.div
       initial={{ opacity: 0 }}
