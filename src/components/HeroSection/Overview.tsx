@@ -5,12 +5,12 @@ import { motion } from "framer-motion";
 
 const Overview = () => {
   return (
-    <div className="flex h-full w-[37rem] flex-col justify-start gap-10">
+    <div className="flex h-full w-[37rem] flex-col justify-start gap-8  ">
       <motion.h1
         initial={{ opacity: 0, x: "-2rem" }}
         animate={{ opacity: 1, x: "0rem" }}
         transition={{ duration: 0.5 }}
-        className="text-4xl font-bold uppercase text-blue-primary-color-400"
+        className="font-lato text-4xl font-bold uppercase text-blue-primary-color-400"
       >
         Channakya Demo Project
       </motion.h1>
@@ -18,17 +18,17 @@ const Overview = () => {
         initial={{ opacity: 0, x: "2rem" }}
         animate={{ opacity: 1, x: "0rem" }}
         transition={{ duration: 0.5 }}
-        className="w-[36rem] text-5xl uppercase leading-[60px] text-blue-primary-color-600"
+        className="w-[32rem] font-comfortaa text-[40px] font-bold uppercase leading-[58px] text-blue-primary-color-600"
       >
         <span className="block">Channakya Software</span>
-        <span className="rounded-md py-2 pr-4">for a</span>
-        <span className="rounded-md px-4 ">Better Software</span>
+        <span>for a </span>
+        <span>Better Software</span>
       </motion.h2>
       <motion.p
         initial={{ opacity: 0, x: "-2rem" }}
         animate={{ opacity: 1, x: "0rem" }}
         transition={{ duration: 0.5 }}
-        className="mt-[-1rem] text-xsm"
+        className="mt-[-1rem] font-lato text-xl"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
         itaque illo soluta dolor repellendus. Esse deleniti earum voluptate
