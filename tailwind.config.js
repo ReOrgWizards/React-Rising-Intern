@@ -53,6 +53,10 @@ export default {
         semibold: "var(--font-semibold)",
       },
 
+      boxShadow: {
+        "normal-shadow": "0 5px 8px rgba(0,0,0,0.2)",
+      },
+
       padding: {
         xsm: "var(--padding-xsm)",
         xm: "var(--padding-sm)",

@@ -2,22 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face: {
+@font-face {
   font-family: "Lato";
-  src: url("./assets/fonts/Lato/Lato-Black.ttf"),
-  url("./assets/fonts/Lato/Lato-Bold.ttf"),
-  url("./assets/fonts/Lato/Lato-Light.ttf"),
-  url("./assets/fonts/Lato/Lato-Regular.ttf"),
-  url("./assets/fonts/Lato/Lato-Thin.ttf"),
+  src: url("./assets/fonts/Lato/Lato-Regular.ttf"),
+    url("./assets/fonts/Lato/Lato-Light.ttf"),
+    url("./assets/fonts/Lato/Lato-Thin.ttf"),
+    url("./assets/fonts/Lato/Lato-Bold.ttf"),
+    url("./assets/fonts/Lato/Lato-Black.ttf");
 }
 
-@font-face: {
-  font-family: "Lato";
-  src: url("./assets/fonts/Comfortaa/static/Comfortaa-Bold.ttf"),
-  url("./assets/fonts/Comfortaa/static/Comfortaa-Light.ttf"),
-  url("./assets/fonts/Comfortaa/static/Comfortaa-Medium.ttf"),
-  url("./assets/fonts/Comfortaa/static/Comfortaa-Regular.ttf"),
-  url("./assets/fonts/Comfortaa/static/Comfortaa-semiBold.ttf"),
+@font-face {
+  font-family: "Comfortaa";
+  src: url("./assets/fonts/Comfortaa/static/Comfortaa-Light.ttf"),
+    url("./assets/fonts/Comfortaa/static/Comfortaa-Medium.ttf"),
+    url("./assets/fonts/Comfortaa/static/Comfortaa-Regular.ttf"),
+    url("./assets/fonts/Comfortaa/static/Comfortaa-semiBold.ttf"),
+    url("./assets/fonts/Comfortaa/static/Comfortaa-Bold.ttf");
 }
 
 :root {
@@ -60,8 +60,6 @@
   --font-thin: 400;
   --font-normal: 500;
   --font-semiibold: 700;
-
-  
 
   /* --padding-xsm: 5px;
   --padding-sm:  10px;

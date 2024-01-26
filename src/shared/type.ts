@@ -6,3 +6,9 @@ export type AnimationType = {
   y?: string;
   delay?: number;
 };
+
+export type footerLinkItemType = {
+  id: number;
+  label: string;
+  icon?: React.ReactNode;
+};

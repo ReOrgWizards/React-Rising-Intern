@@ -35,7 +35,7 @@ const HeroImage = () => {
         transition={{ duration: 1 }}
         className="h-[450px] w-[520px] rotate-[-10deg] rounded-md bg-blue-primary-color-200"
       ></motion.div>
-      <div className="absolute left-20 top-[32%] z-20 flex flex-col items-center justify-center gap-2">
+      <div className="absolute left-16 top-[32%] z-20 flex flex-col items-center justify-center gap-2">
         <Button
           initial={initialButton1}
           animate={animateButton1}
